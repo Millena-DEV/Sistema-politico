@@ -1,0 +1,7 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "appService.preDeployTask": "package:demo",
+    "appService.deploySubpath": "target/demo-0.0.1-SNAPSHOT.jar"
+}

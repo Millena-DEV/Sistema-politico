@@ -1,0 +1,27 @@
+<svg viewBox="0 0 6 4" preserveAspectRatio="xMinYMin slice" class="background_svg">
+    <g stroke="none" stroke-width="0">
+    <defs>
+    <polygon points="2.25 0 6 2.40 6 0" id="top-right-shard">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" id="top-right-shard-fadein">
+    </animate>
+    <animate attributeName="points" values=" 2 0 6 2.35 6 0; 2.25 0 6 2.40 6 0 " dur="2.5s" repeatCount="1" keyTimes="0; 1" keySplines="0.18 0.8 0.36 0.99" calcMode="spline" begin="top-right-shard-fadein.begin+0s" id="top-right-shard-initial"></animate><animate attributeName="points" values=" 2.25 0 6 2.40 6 0; 2 0 6 2.20 6 0; 2 0 6 2.55 6 0; 2.25 0 6 2.40 6 0 " dur="25s" repeatCount="indefinite" keyTimes="0; .35; .65; 1" keySplines=" 0.5 0.2 0.5 0.8; 0.5 0.2 0.5 0.8; 0.5 0.2 0.5 0.8" calcMode="spline" begin="top-right-shard-initial.end+0.5s">
+    </animate>
+    </polygon>
+    <polygon points="1.75 4 6 1.25 6 6" id="bottom-right-shard">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" id="bottom-right-shard-fadein">
+    </animate>
+    <animate attributeName="points" values=" 1.5 4 6 1.5 6 6; 1.75 4 6 1.25 6 6 " dur="2s" repeatCount="1" keyTimes="0; 1" keySplines="0.18 0.8 0.36 0.99" calcMode="spline" begin="bottom-right-shard-fadein.begin+0s" id="bottom-right-shard-initial"></animate>
+    <animate attributeName="points" values=" 1.75 4 6 1.25 6 6; 0.75 4 6 1.45 6 6; 1 4 6 1.4 6 6; 1.75 4 6 1.25 6 6 " dur="25s" repeatCount="indefinite" keyTimes="0; .45; .75; 1" keySplines=" 0.5 0.2 0.5 0.8; 0.5 0.2 0.5 0.8; 0.5 0.2 0.5 0.8" calcMode="spline" begin="bottom-right-shard-initial.end+0.85s"></animate>
+    </polygon>
+    </defs>
+    <clipPath id="top-right-shard-mask">
+    <use xlink:href="#top-right-shard" fill="white">
+    </use>
+    </clipPath>
+    <use fill="rgb(238, 238, 238)" xlink:href="#top-right-shard" class="top-right-shard">
+    </use><use fill="rgb(138, 197, 57)" xlink:href="#bottom-right-shard" class="bottom-right-shard">
+    </use>
+    <use fill="rgb(252, 213, 18)" xlink:href="#bottom-right-shard" class="intersect-shard" clip-path="url(#top-right-shard-mask)">
+    </use>
+    </g>
+    </svg>
