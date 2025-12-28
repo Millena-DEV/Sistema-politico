@@ -6,3 +6,5 @@
 *.js linguist-language=JavaScript
 *.md linguist-language=Markdown
 *.py linguist-vendored
+*.html linguist-vendored
+*.html linguist-generated
