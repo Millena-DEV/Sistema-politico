@@ -4,3 +4,5 @@
 *.html linguist-language=HTML
 *.css linguist-language=CSS
 *.js linguist-language=JavaScript
+*.md linguist-language=Markdown
+*.py linguist-vendored
