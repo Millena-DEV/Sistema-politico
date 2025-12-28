@@ -8,3 +8,5 @@
 *.py linguist-vendored
 *.html linguist-vendored
 *.html linguist-generated
+*.css linguist-vendored
+*.css linguist-generated
